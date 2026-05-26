@@ -1,6 +1,6 @@
-# 🔐 SIEM Log Dashboard Using ELK Stack
+#  SIEM Log Dashboard Using ELK Stack
 
-## 📌 Project Overview
+##  Project Overview
 The **SIEM Log Dashboard Using ELK Stack** project is designed to demonstrate centralized log monitoring and cybersecurity event analysis using the ELK Stack.
 
 The system collects logs from systems or applications, processes and parses them using Logstash, stores them in Elasticsearch, and visualizes them through Kibana dashboards.
@@ -9,7 +9,7 @@ This project helps in monitoring suspicious activities such as failed login atte
 
 ---
 
-# 📌 Problem Statement
+#  Problem Statement
 Modern organizations generate huge amounts of logs from servers, systems, applications, and network devices. Manually monitoring these logs is difficult, time-consuming, and inefficient.
 
 Without centralized monitoring:
@@ -21,7 +21,7 @@ This project provides a centralized SIEM dashboard for efficient log collection,
 
 ---
 
-# 📌 Objectives
+#  Objectives
 - To collect system and security logs
 - To process logs using Logstash
 - To store logs in Elasticsearch
@@ -31,7 +31,7 @@ This project provides a centralized SIEM dashboard for efficient log collection,
 
 ---
 
-# 📌 Technologies Used
+#  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -44,7 +44,7 @@ This project provides a centralized SIEM dashboard for efficient log collection,
 
 ---
 
-# 📌 ELK Stack Components
+#  ELK Stack Components
 
 ## 🔹 Elasticsearch
 Elasticsearch is a distributed search and analytics engine used for:
@@ -107,7 +107,7 @@ Security Analyst
 
 ---
 
-# 📌 Working of the Project
+#  Working of the Project
 
 ## Step 1 – Log Collection
 Logs are generated from system activities and failed login attempts.
@@ -142,7 +142,7 @@ Kibana visualizes logs using:
 
 ---
 
-# 📌 Installation Steps
+#  Installation Steps
 
 ## 🔹 Install Elasticsearch
 ```bash
@@ -246,7 +246,7 @@ sudo systemctl restart elasticsearch
 
 ---
 
-# 📌 Limitations
+#  Limitations
 - Basic implementation
 - No advanced AI-based detection
 - Limited real-time monitoring
@@ -254,7 +254,7 @@ sudo systemctl restart elasticsearch
 
 ---
 
-# 📌 Future Scope
+# Future Scope
 - Real-time log monitoring using Filebeat
 - Automated alert notifications
 - AI-based anomaly detection
@@ -264,7 +264,7 @@ sudo systemctl restart elasticsearch
 
 ---
 
-# 📌 Applications
+#  Applications
 - Security Operations Centers (SOC)
 - Cybersecurity monitoring
 - Log management systems
@@ -274,7 +274,7 @@ sudo systemctl restart elasticsearch
 
 ---
 
-# 📌 Conclusion
+#  Conclusion
 The project successfully demonstrates the implementation of a SIEM Log Dashboard using the ELK Stack. It provides centralized log collection, processing, storage, searching, and visualization for cybersecurity monitoring and analysis.
 
 The project improved understanding of:
